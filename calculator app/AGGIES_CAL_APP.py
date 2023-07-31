@@ -9,7 +9,13 @@ Created on Mon Jun 26 11:43:03 2023
 import streamlit as st
 import base64
 import PIL
- 
+
+st.set_page_config(
+    page_title = "Calculator App",
+    layout = "centered",
+    initial_sidebar_state = "auto"
+    )
+
 st.title("AGGIE'S simple Calculator App using Streamlit")
 
 col1, col2 = st.columns([1, 1])
