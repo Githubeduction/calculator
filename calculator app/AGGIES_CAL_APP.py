@@ -20,7 +20,7 @@ st.title("AGGIE'S simple Calculator App using Streamlit")
 
 col1, col2 = st.columns([1, 1])
 with col1: 
-    st.image("pexels-yaroslav-shuraev-6283223.jpg") 
+    st.image("calculator app/img/pexels-yaroslav-shuraev-6283223.jpg") 
 with col2: 
     st.write("""To get the exact figures of what you are calculating without complexities you need a simple calculator like this one, you can add, multiply , subtract and divide numbers so that your figures can never be wrong""")
 
